@@ -1,1 +1,8 @@
+h=float(input("Enter the height of the cylinder:"))
+r=float(input("Enter the radius of the cylinder:"))
+volume=(3.142*r**2)*(h)
+surface_area=(2*3.142*r*h)+((3.142*r**2)*2)
+print("The volume the cylinder is ",volume)
+print("The Surface_area the cylinder is ",surface_area)
+
 
