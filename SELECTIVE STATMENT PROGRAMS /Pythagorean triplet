@@ -1,1 +1,8 @@
-
+print("ENTER THREE NUMBERS IN ASCENDING ORDER")
+n1=int(input("Number 1:"))
+n2=int(input("Number 2:"))
+n3=int(input("Number 3:"))
+if((n1*n1)+(n2*n2)==(n3*n3)):
+  print('1')
+ else:
+  print('0')
