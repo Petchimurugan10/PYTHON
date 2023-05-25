@@ -1,1 +1,5 @@
-
+d=int(input("Enter the birth year:"))
+if(2023-d>=60):
+  print("The charge is ",1020-(1020*0.2))
+else:
+  print("The charge is 1020")
